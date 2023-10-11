@@ -125,7 +125,7 @@ header:after {
 }
 
 .section {
-  padding-top: 61px;
+  padding-top: 60px;
   display: flex;
   box-sizing: border-box;
 }
@@ -133,10 +133,12 @@ header:after {
 .section-image {
   object-fit: cover;
   object-position: center center;
+  padding-top: 1px;
 }
 
 .section-content {
   margin-left: 30px;
+
 }
 
 .nav {
@@ -151,11 +153,11 @@ header:after {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding-left: 0;
+  padding: 0;
 }
 
 .nav-list-item:nth-child(n+2) {
-  margin-left: 20px;
+  margin-left: 19px;
 
 }
 
@@ -164,8 +166,8 @@ header:after {
 }
 
 .article-header {
-  min-height: 77px;
-  margin-top: 6px;
+  min-height: 76px;
+  margin-top: 5px;
 }
 
 .article-title {
@@ -201,9 +203,10 @@ header:after {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.47;
+
 }
 .article-paragraph {
-  margin-top: 7px;
+  margin-top: 8px;
 }
 
 
