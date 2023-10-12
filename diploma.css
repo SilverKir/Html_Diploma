@@ -127,17 +127,23 @@ header:after {
 .section {
   padding-top: 60px;
   display: flex;
+  justify-content:space-between;
   box-sizing: border-box;
 }
 
 .section-image {
-  object-fit: cover;
-  object-position: center center;
+  width: 381px;
   padding-top: 1px;
+  
+}
+.section-image:before {
+  width: 381px;
 }
 
 .section-content {
   margin-left: 30px;
+  width: 366px;
+
 }
 
 .nav {
@@ -151,7 +157,7 @@ header:after {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding: 0;
+  padding-left: 0px;
 }
 
 .nav-list-item:nth-child(n+2) {
