@@ -127,17 +127,14 @@ header:after {
 .section {
   padding-top: 60px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   box-sizing: border-box;
 }
 
 .section-image {
   width: 381px;
   padding-top: 1px;
-  
-}
-.section-image:before {
-  width: 381px;
+
 }
 
 .section-content {
@@ -214,18 +211,17 @@ header:after {
 }
 
 .aside {
-  margin-left: 120px;
+  margin-left: 122px;
   width: 270px;
 }
 
 .new-post-headline {
-  padding-top: 60px;
+  padding-top: 59px;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   /* из-за того что надпись не по центру */
-  box-sizing: border-box;
-  width: 283px;
+  width: 276px;
   /* из-за того что надпись не по центру */
   text-align: center;
 }
@@ -236,6 +232,45 @@ header:after {
   width: 66px;
   height: 3px;
   background: #b59f5b;
-  margin-top: 10px;
+  margin-top: 9px;
   margin-left: 106px;
+  margin-bottom: 8px;
+}
+
+.sidebar-news {
+  width: 270px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sidebar-image {
+  width: 70px;
+  padding-top: 3px;
+}
+
+.sidebar-content{
+  width: 182px; 
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.sidebar-date {
+  font-weight: 400;
+  font-size: 12px;
+  color: #888888;
+
+}
+
+.news-title {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  
+}
+
+.news-title:hover {
+  color: #b59f5b;
 }
