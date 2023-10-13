@@ -431,3 +431,64 @@ header:after {
 .tag-title:nth-child(3n-1) {
   margin-left: 5px;
 }
+
+.themes-headline {
+  padding-top: 42px;
+  padding-left: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.themes-headline:after {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 3px;
+  background: #b59f5b;
+  margin-top: 9px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.themes-list {
+  padding: 0;
+}
+
+.themes-list-item {
+  height: 27px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.themes-name {
+  display: inline-block;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.themes-name:first-letter {
+  text-transform: uppercase;
+}
+
+.themes-name:hover {
+  color: #b59f5b;
+}
+
+
+.themes-count {
+  font-weight: 700;
+  font-size: 12px;
+  color: #b59f5b;
+}
+
+.themes-count:after {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 1px;
+  background: #ededed;
+  margin-top: 10px;
+}
