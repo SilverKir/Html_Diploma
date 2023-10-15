@@ -29,12 +29,12 @@ a {
 }
 
 body {
-  width: 1660px;
+  min-width: 1660px;
+  font-family: OpenSans, Arial, sans-serif;
+  font-style: normal;
 }
 
 .header {
-  font-family: OpenSans, Arial, sans-serif;
-  font-style: normal;
   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
   min-height: 450px;
   min-width: 1660px;
@@ -491,4 +491,44 @@ header:after {
   height: 1px;
   background: #ededed;
   margin-top: 10px;
+}
+
+.page-footer {
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.links-box {
+  margin-top: 65px;
+  height: 82px;
+  background-color: #f4f7f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-network-link:nth-child(n+2){
+  margin-left: 27px;
+}
+
+
+.link-icon {
+  height: 20px;
+}
+
+.copyright-block {
+  margin-top: 70px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright-link {
+  font-weight: 700;
+  font-size: 12px;
+  color: #999999;
+
 }
