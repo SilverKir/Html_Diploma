@@ -15,51 +15,74 @@
     <div class="container">
       <!-- Заполнение заголовка -->
       <a class="menu-link" href="#home">
-        <img src="SVG/noemi-logo.svg" class="header-logo"
-          alt="Логотип">
+        <img src="SVG/noemi-logo.svg" class="header-logo" alt="Логотип">
       </a>
       <nav class="menu">
         <ul class="menu-list">
-          <li class="menu-list-item">
+          <li class="menu-list__item">
             <a class="menu-link" href="#home">Главная</a>
           </li>
-          <li class="menu-list-item">
+          <li class="menu-list__item">
             <a class="menu-link" href="#0">Посты</a>
           </li>
-          <li class="menu-list-item">
+          <li class="menu-list__item">
             <a class="menu-link" href="#0">Статьи</a>
           </li>
-          <li class="menu-list-item">
+          <li class="menu-list__item">
             <a class="menu-link" href="#0">Теги</a>
           </li>
-          <li class="menu-list-item">
+          <li class="menu-list__item">
             <a class="menu-link" href="#0">Темы</a>
           </li>
-          <li class="menu-list-item">
+          <li class="menu-list__item">
             <a class="menu-link" href="#0">Контакты</a>
           </li>
         </ul>
       </nav>
     </div>
-    <h1 class="header-title">
+    <h1 class="header__title">
       Блог о творчестве, спорте, и образе жизни
     </h1>
   </header>
   <!-- конец верха начало средней части -->
+  <section class="trends-section">
+    <h2 class="trends__title">сейчас в тренде</h2>
+    <div class="trends-content">
+      <div class="trend-block">
+        <div class="trend__content">
+          <img src="Images/trend1.jpg" alt="Сад на подоконнике" class="trend__image">
+          <div class="trend-nav">
+            <ul class="trend-nav-list">
+              <li class="trend-nav-list__item">
+                <a class="trend-nav-link" href="#0">Lifestyle</a>
+              </li>
+              <li class="trend-nav-list__item">
+                <a class="trend-nav-link" href="#0">Interior</a>
+              </li>
+            </ul>
+          </div>
+          <h2 class="trend__text">сейчас в тренде сад на подоконнике</h3>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
   <div class="wrp">
     <!-- Заполнение основной раздела страницы -->
     <main class="page">
 
+
       <article class="section">
-        <img src="Images/last-post1.jpg" alt="Красивые места"
-          class="section-image">
+        <img src="Images/last-post1.jpg" alt="Красивые места" class="section-image">
         <div class="section-content">
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">Travel</a>
               </li>
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">health</a>
               </li>
             </ul>
@@ -84,15 +107,14 @@
       </article>
 
       <article class="section">
-        <img src="Images/last-post2.jpg"
-          alt="Йога для начинающих" class="section-image">
+        <img src="Images/last-post2.jpg" alt="Йога для начинающих" class="section-image">
         <div class="section-content">
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">health</a>
               </li>
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">Lifestyle</a>
               </li>
             </ul>
@@ -116,12 +138,11 @@
       </article>
 
       <article class="section">
-        <img src="Images/last-post3.jpg" alt="Фестиваль"
-          class="section-image">
+        <img src="Images/last-post3.jpg" alt="Фестиваль" class="section-image">
         <div class="section-content">
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">music</a>
               </li>
             </ul>
@@ -149,15 +170,14 @@
       </article>
 
       <article class="section">
-        <img src="Images/last-post4.jpg" alt="Кулинария"
-          class="section-image">
+        <img src="Images/last-post4.jpg" alt="Кулинария" class="section-image">
         <div class="section-content">
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">lifestyle</a>
               </li>
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">food</a>
               </li>
             </ul>
@@ -181,18 +201,17 @@
       </article>
 
       <article class="section">
-        <img src="Images/last-post5.jpg" alt="Модные подушки"
-          class="section-image">
+        <img src="Images/last-post5.jpg" alt="Модные подушки" class="section-image">
         <div class="section-content">
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">lifestyle</a>
               </li>
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">interior</a>
               </li>
-              <li class="nav-list-item">
+              <li class="nav-list__item">
                 <a class="nav-link" href="#0">art</a>
               </li>
             </ul>
@@ -215,7 +234,7 @@
         </div>
       </article>
 
-     
+
 
 
     </main>
@@ -229,8 +248,7 @@
       <!-- Секция новых постов -->
 
       <section class="sidebar-news">
-        <img src="Images/2.jpg" alt="Места"
-          class="sidebar-image">
+        <img src="Images/2.jpg" alt="Места" class="sidebar-image">
         <div class="sidebar-content">
           <div class="sidebar-date">14 июня 2019</div>
           <a class="news-title" href="#0">10 мест, ради которых
@@ -239,8 +257,7 @@
       </section>
 
       <section class="sidebar-news">
-        <img src="Images/151.jpg" alt="Йога"
-          class="sidebar-image">
+        <img src="Images/151.jpg" alt="Йога" class="sidebar-image">
         <div class="sidebar-content">
           <div class="sidebar-date">14 июня 2019</div>
           <a class="news-title" href="#0">Йога для домашних
@@ -249,8 +266,7 @@
       </section>
 
       <section class="sidebar-news">
-        <img src="Images/45.jpg" alt="Балкон"
-          class="sidebar-image">
+        <img src="Images/45.jpg" alt="Балкон" class="sidebar-image">
         <div class="sidebar-content">
           <div class="sidebar-date">14 июня 2019</div>
           <a class="news-title" href="#0">как мы превратили
@@ -260,8 +276,7 @@
       </section>
 
       <section class="sidebar-news">
-        <img src="Images/501.jpg" alt="Кулинария"
-          class="sidebar-image">
+        <img src="Images/501.jpg" alt="Кулинария" class="sidebar-image">
         <div class="sidebar-content">
           <div class="sidebar-date">14 июня 2019</div>
           <a class="news-title" href="#0">Кулинарный подход
@@ -271,8 +286,7 @@
       </section>
 
       <section class="sidebar-news">
-        <img src="Images/7.jpg" alt="Прически"
-          class="sidebar-image">
+        <img src="Images/7.jpg" alt="Прически" class="sidebar-image">
         <div class="sidebar-content">
           <div class="sidebar-date">14 июня 2019</div>
           <a class="news-title" href="#0">лучшие прически для
@@ -361,18 +375,15 @@
   <footer class="page-footer">
     <div class="links-box">
       <a href="#0" class="social-network-link">
-        <img src="SVG/001-dribbble.svg"
-          alt="наша страница в социальной сети" class="link-icon">
+        <img src="SVG/001-dribbble.svg" alt="наша страница в социальной сети" class="link-icon">
         <div class="visually-hidden">ссылка на нашу страницу в социальной сети</div>
       </a>
       <a href="#0" class="social-network-link">
-        <img src="SVG/002-pinterest.svg"
-          alt="наша страница в социальной сети" class="link-icon">
+        <img src="SVG/002-pinterest.svg" alt="наша страница в социальной сети" class="link-icon">
         <div class="visually-hidden">ссылка на нашу страницу в социальной сети</div>
       </a>
       <a href="#0" class="social-network-link">
-        <img src="SVG/003-tumblr.svg"
-          alt="наша страница в социальной сети" class="link-icon">
+        <img src="SVG/003-tumblr.svg" alt="наша страница в социальной сети" class="link-icon">
         <div class="visually-hidden">ссылка на нашу страницу в социальной сети</div>
       </a>
     </div>

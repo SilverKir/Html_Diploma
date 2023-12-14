@@ -93,15 +93,15 @@ header:after {
   display: flex;
 }
 
-.menu-list-item:nth-child(n+2) {
+.menu-list__item:nth-child(n+2) {
   margin-left: 35px;
 }
 
-.menu-list-item:hover {
+.menu-list__item:hover {
   text-decoration: underline;
 }
 
-.header-title {
+.header__title {
    width: 41.57%;
    /* 690px;  */
   text-align: center;
@@ -113,6 +113,42 @@ header:after {
   display: block;
   padding-top: 103px;
   margin: 0 auto;
+}
+
+.trends-section{
+  width: 100%;
+  margin-top: 65px;
+}
+
+h2, h3 {
+  margin: 0;
+  font-family: OpenSans, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.trends__title{
+  text-align: center;
+}
+
+.trends__title:after {
+  content: "";
+  display: block;
+  width: 66px;
+  height: 3px;
+  background: #b59f5b;
+  margin: 9px auto;
+  
 }
 
 .wrp {
@@ -154,25 +190,30 @@ header:after {
 
 }
 
-.nav {
+.nav,
+.trend-nav {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: #b59f5b;
 }
 
-.nav-list {
+.nav-list,
+.trend-nav-list {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   padding-left: 0px;
 }
 
-.nav-list-item:nth-child(n+2) {
+.nav-list__item:nth-child(n+2),
+.trend-nav-list__item:nth-child(n+2)
+ {
   margin-left: 19px;
 }
 
-.nav-list-item:hover {
+.nav-list__item:hover,
+.trend-nav-list__item:hover{
   text-decoration: underline
 }
 
