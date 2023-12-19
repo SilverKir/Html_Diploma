@@ -12,8 +12,9 @@
   font-style: normal;
 }
 
-h1, p, ul, body {
+h1, p, ul, li, body {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -568,8 +569,27 @@ margin-top: 27px;
   margin-left: 5px;
 }
 
+.products-section {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.products__title {
+  text-align: center;
+}
+
+.products__title:after {
+  content: "";
+  display: block;
+  width: 66px;
+  height: 3px;
+  background: #b59f5b;
+  margin: 9px auto;
+}
+
+
 .page-footer {
-  width: 1200px;
+  max-width: 1200px;
   box-sizing: border-box;
   margin: 0 auto;
   padding-left: 15px;
