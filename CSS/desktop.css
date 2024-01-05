@@ -756,9 +756,9 @@ header:after {
   position: relative;
   background: #ffffff;
   max-width: 390px;
-    width: 90vw;
-    max-height: 590px;
-    height: 90vh;
+  width: 90vw;
+  max-height: 590px;
+  height: 90vh;
   padding: 30px;
   z-index: 4;
 }
@@ -1082,7 +1082,7 @@ header:after {
     .trend__text {
       font-size: 14px;
     }
-    
+
   }
 
   @media (min-width: 641px) and (orientation: landscape) and (max-width: 750px) {
@@ -1093,6 +1093,7 @@ header:after {
     .trend-nav {
       font-size: 10px;
     }
+
     .trend__content {
       padding: 2%;
       margin-left: 7px;
@@ -1264,7 +1265,7 @@ header:after {
     max-width: 325px;
   }
 
-  .popup{
+  .popup {
     align-items: start;
   }
 
@@ -1299,4 +1300,53 @@ header:after {
     }
   }
 
+}
+
+/* popup при маленькой высоте */
+@media (max-height: 610px) {
+
+  .popup__content {
+    max-width: 700px;
+    max-height: 90vh;
+    height: auto;
+    padding: 20px;
+  }
+
+  .popup-headline {
+    margin-top: 0;
+  }
+
+  .popup-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+
+  .site-visits__label {
+    width: 45%;
+  }
+
+  .newsletter-box {
+    width: 45%;
+  }
+
+  .desired-content__label {
+    width: 100%;
+  }
+
+  .content-text {
+    padding: 10px;
+    min-height: 70px;
+  }
+
+  .form-btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .btn-submit {
+    margin: 0;
+  }
 }
