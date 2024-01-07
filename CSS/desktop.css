@@ -1078,7 +1078,7 @@ header:after {
 
   }
 
-  @media (min-width: 641px) and (orientation: landscape) and (max-width: 830px) {
+  @media (min-width: 641px) and (orientation: landscape) and (max-width: 850px) {
     .trend__text {
       font-size: 14px;
     }
@@ -1199,6 +1199,10 @@ header:after {
   .themes-headline:after,
   .tag-headline:after {
     margin-left: 40%;
+  }
+
+  .sidebar-news {
+    justify-content: center;
   }
 
   .sidebar-content {
